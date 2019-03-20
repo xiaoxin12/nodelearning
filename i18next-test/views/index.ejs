@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <script src="/javascripts/changeLanguage.js"></script>
+    <script src="https://lib.baomitu.com/jquery/3.3.1/jquery.js"></script>
+  </head>
+  <body>
+    <div class="newsText">
+      <button onclick="changeLanguage('zh-CN')">中文</button>
+      <button onclick="changeLanguage('en')">eglish</button>
+      <button onclick="changeLanguage('de')">german</button>
+      <p>当前的title 是 <%= title %> 所登陆的用户是<%= user%></p>
+      <p>BACKGROUND</p>
+    </div>
+  </body>
+</html>
