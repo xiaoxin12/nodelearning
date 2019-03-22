@@ -1,0 +1,26 @@
+{
+  "name": "express1",
+  "version": "1.0.0",
+  "description": "这是一个简单的个人聊天室",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaoxin12/express.git"
+  },
+  "author": "sunxiaochen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaoxin12/express/issues"
+  },
+  "homepage": "https://github.com/xiaoxin12/express#readme",
+  "devDependencies": {
+    "express": "^4.16.4"
+  },
+  "dependencies": {
+    "socket.io": "^2.2.0"
+  }
+}
